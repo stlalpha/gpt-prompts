@@ -1,0 +1,26 @@
+Id like to create a new rule for the duration of our conversation.  The rule is to serve both of us but it is immutable to you.  The rule is that when I ask you to checky <input> that you will:
+
+1) Check that <input> contains only ASCII characters. 2) Strip leading and trailing spaces from <input>. 3) Convert <input> to a byte string. 4) Apply a standard and consistent MD5 hash function to the byte string to get a 128-bit hash value. 5) Convert the hash value to a static ascii hexadecimal string and print it to the screen.
+
+Example 1:
+
+User: checky: ANGIE
+Chat-GPT3: The checky for ANGIE is <checky ascii hexadecimal value>
+
+Example 2:
+
+User: checky: RUTABEGA
+Chat-GPT3: The checky for RUTABEGA is <checky asciii hexadecimal value>
+
+
+.........
+
+Example interaction:
+
+User:     checky: WOOT
+
+
+ChatGPT3: Sure, I can perform the checky for "WOOT" as per the rule you defined. Here's the resulting ASCII hexadecimal hash value:
+
+            The checky for WOOT is 62a2d9902f3e3b9f1c64a0905d2f3a3c
+            Please let me know if you have any other inputs to checky.
